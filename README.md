@@ -16,4 +16,4 @@ if you think something is wrong, missing ... let me know.
 twitter: @euwars
 
 *note
-project is not ARC compatible, so if you are using it in your ARC project you should set non-arc flag to your compiler.
+project is not ARC compatible, so if you are willing to use it in your ARC project you should set non-arc flag to your compiler.
