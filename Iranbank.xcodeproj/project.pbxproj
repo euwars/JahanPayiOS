@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		947C88AC1640FD3400B79369 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947C88AB1640FD3400B79369 /* UIKit.framework */; };
+		947C88AE1640FD3400B79369 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947C88AD1640FD3400B79369 /* Foundation.framework */; };
+		947C88B01640FD3400B79369 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947C88AF1640FD3400B79369 /* CoreGraphics.framework */; };
+		947C88F81640FE5300B79369 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 947C88F71640FE5300B79369 /* libxml2.dylib */; };
+		CB7F5DB51A558AC100DB850B /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F5DB41A558AC100DB850B /* XPathQuery.m */; };
+		CB7F5DBA1A558AD800DB850B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F5DB71A558AD800DB850B /* AppDelegate.m */; };
+		CB7F5DBB1A558AD800DB850B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F5DB91A558AD800DB850B /* ViewController.m */; };
+		CB7F5DBD1A558AEA00DB850B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7F5DBC1A558AEA00DB850B /* Storyboard.storyboard */; };
+		CB7F5DC11A558AFC00DB850B /* Iranbank-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB7F5DBE1A558AFC00DB850B /* Iranbank-Info.plist */; };
+		CB7F5DC21A558AFC00DB850B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F5DC01A558AFC00DB850B /* main.m */; };
+		CB7F5DC91A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQ_Enums.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F5DC41A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQ_Enums.m */; };
+		CB7F5DCA1A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQ.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F5DC61A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQ.m */; };
+		CB7F5DCB1A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F5DC81A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		947C88A71640FD3400B79369 /* Iranbank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iranbank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		947C88AB1640FD3400B79369 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		947C88AD1640FD3400B79369 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		947C88AF1640FD3400B79369 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		947C88F71640FE5300B79369 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		CB7F5DB31A558AC100DB850B /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = Iranbank/XPathQuery.h; sourceTree = SOURCE_ROOT; };
+		CB7F5DB41A558AC100DB850B /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = Iranbank/XPathQuery.m; sourceTree = SOURCE_ROOT; };
+		CB7F5DB61A558AD800DB850B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Iranbank/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		CB7F5DB71A558AD800DB850B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Iranbank/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		CB7F5DB81A558AD800DB850B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Iranbank/ViewController.h; sourceTree = SOURCE_ROOT; };
+		CB7F5DB91A558AD800DB850B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Iranbank/ViewController.m; sourceTree = SOURCE_ROOT; };
+		CB7F5DBC1A558AEA00DB850B /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = Iranbank/Storyboard.storyboard; sourceTree = SOURCE_ROOT; };
+		CB7F5DBE1A558AFC00DB850B /* Iranbank-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Iranbank-Info.plist"; path = "Iranbank/Iranbank-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CB7F5DBF1A558AFC00DB850B /* Iranbank-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Iranbank-Prefix.pch"; path = "Iranbank/Iranbank-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		CB7F5DC01A558AFC00DB850B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Iranbank/main.m; sourceTree = SOURCE_ROOT; };
+		CB7F5DC31A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQ_Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JahanPay_cmV6YW9ubGluZS5uZXQ_Enums.h; path = Iranbank/JahanPay/JahanPay_cmV6YW9ubGluZS5uZXQ_Enums.h; sourceTree = SOURCE_ROOT; };
+		CB7F5DC41A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQ_Enums.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JahanPay_cmV6YW9ubGluZS5uZXQ_Enums.m; path = Iranbank/JahanPay/JahanPay_cmV6YW9ubGluZS5uZXQ_Enums.m; sourceTree = SOURCE_ROOT; };
+		CB7F5DC51A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JahanPay_cmV6YW9ubGluZS5uZXQ.h; path = Iranbank/JahanPay/JahanPay_cmV6YW9ubGluZS5uZXQ.h; sourceTree = SOURCE_ROOT; };
+		CB7F5DC61A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JahanPay_cmV6YW9ubGluZS5uZXQ.m; path = Iranbank/JahanPay/JahanPay_cmV6YW9ubGluZS5uZXQ.m; sourceTree = SOURCE_ROOT; };
+		CB7F5DC71A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JahanPay_cmV6YW9ubGluZS5uZXQProxy.h; path = Iranbank/JahanPay/JahanPay_cmV6YW9ubGluZS5uZXQProxy.h; sourceTree = SOURCE_ROOT; };
+		CB7F5DC81A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JahanPay_cmV6YW9ubGluZS5uZXQProxy.m; path = Iranbank/JahanPay/JahanPay_cmV6YW9ubGluZS5uZXQProxy.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		947C88A41640FD3400B79369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947C88F81640FE5300B79369 /* libxml2.dylib in Frameworks */,
+				947C88AC1640FD3400B79369 /* UIKit.framework in Frameworks */,
+				947C88AE1640FD3400B79369 /* Foundation.framework in Frameworks */,
+				947C88B01640FD3400B79369 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		947C889C1640FD3400B79369 = {
+			isa = PBXGroup;
+			children = (
+				947C88B11640FD3400B79369 /* Main */,
+				947C88AA1640FD3400B79369 /* Frameworks */,
+				947C88A81640FD3400B79369 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		947C88A81640FD3400B79369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				947C88A71640FD3400B79369 /* Iranbank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		947C88AA1640FD3400B79369 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				947C88F71640FE5300B79369 /* libxml2.dylib */,
+				947C88AB1640FD3400B79369 /* UIKit.framework */,
+				947C88AD1640FD3400B79369 /* Foundation.framework */,
+				947C88AF1640FD3400B79369 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		947C88B11640FD3400B79369 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CBA68C961A54DD3200C74E8A /* JahanPay */,
+				CB7F5DB31A558AC100DB850B /* XPathQuery.h */,
+				CB7F5DB41A558AC100DB850B /* XPathQuery.m */,
+				CB7F5DB61A558AD800DB850B /* AppDelegate.h */,
+				CB7F5DB71A558AD800DB850B /* AppDelegate.m */,
+				CB7F5DB81A558AD800DB850B /* ViewController.h */,
+				CB7F5DB91A558AD800DB850B /* ViewController.m */,
+				CB7F5DBC1A558AEA00DB850B /* Storyboard.storyboard */,
+				947C88B21640FD3400B79369 /* Supporting Files */,
+			);
+			name = Main;
+			path = IphoneTestWsdl2Code;
+			sourceTree = "<group>";
+		};
+		947C88B21640FD3400B79369 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F5DBE1A558AFC00DB850B /* Iranbank-Info.plist */,
+				CB7F5DBF1A558AFC00DB850B /* Iranbank-Prefix.pch */,
+				CB7F5DC01A558AFC00DB850B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBA68C961A54DD3200C74E8A /* JahanPay */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F5DC31A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQ_Enums.h */,
+				CB7F5DC41A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQ_Enums.m */,
+				CB7F5DC51A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQ.h */,
+				CB7F5DC61A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQ.m */,
+				CB7F5DC71A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQProxy.h */,
+				CB7F5DC81A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQProxy.m */,
+			);
+			name = JahanPay;
+			path = JahanPay_cmV6YW9ubGluZS5uZXQ;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		947C88A61640FD3400B79369 /* Iranbank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947C88DA1640FD3500B79369 /* Build configuration list for PBXNativeTarget "Iranbank" */;
+			buildPhases = (
+				947C88A31640FD3400B79369 /* Sources */,
+				947C88A41640FD3400B79369 /* Frameworks */,
+				947C88A51640FD3400B79369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Iranbank;
+			productName = IphoneTestWsdl2Code;
+			productReference = 947C88A71640FD3400B79369 /* Iranbank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		947C889E1640FD3400B79369 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Benny Aballay";
+			};
+			buildConfigurationList = 947C88A11640FD3400B79369 /* Build configuration list for PBXProject "Iranbank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 947C889C1640FD3400B79369;
+			productRefGroup = 947C88A81640FD3400B79369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				947C88A61640FD3400B79369 /* Iranbank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		947C88A51640FD3400B79369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7F5DC11A558AFC00DB850B /* Iranbank-Info.plist in Resources */,
+				CB7F5DBD1A558AEA00DB850B /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		947C88A31640FD3400B79369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7F5DBB1A558AD800DB850B /* ViewController.m in Sources */,
+				CB7F5DB51A558AC100DB850B /* XPathQuery.m in Sources */,
+				CB7F5DBA1A558AD800DB850B /* AppDelegate.m in Sources */,
+				CB7F5DCB1A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQProxy.m in Sources */,
+				CB7F5DCA1A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQ.m in Sources */,
+				CB7F5DC21A558AFC00DB850B /* main.m in Sources */,
+				CB7F5DC91A558B3400DB850B /* JahanPay_cmV6YW9ubGluZS5uZXQ_Enums.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		947C88D81640FD3500B79369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDK_DIR)\"/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		947C88D91640FD3500B79369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDK_DIR)\"/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		947C88DB1640FD3500B79369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Iranbank/Iranbank-Prefix.pch";
+				INFOPLIST_FILE = "Iranbank/Iranbank-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		947C88DC1640FD3500B79369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Iranbank/Iranbank-Prefix.pch";
+				INFOPLIST_FILE = "Iranbank/Iranbank-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		947C88A11640FD3400B79369 /* Build configuration list for PBXProject "Iranbank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947C88D81640FD3500B79369 /* Debug */,
+				947C88D91640FD3500B79369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947C88DA1640FD3500B79369 /* Build configuration list for PBXNativeTarget "Iranbank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947C88DB1640FD3500B79369 /* Debug */,
+				947C88DC1640FD3500B79369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 947C889E1640FD3400B79369 /* Project object */;
+}

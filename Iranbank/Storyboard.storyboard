@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="14C81f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Aih-cN-vm9">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="KiB-iA-A8j">
+            <objects>
+                <navigationController id="Aih-cN-vm9" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1L8-X2-2VR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="5Zm-Fj-272" kind="relationship" relationship="rootViewController" id="ysJ-px-CNp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XcM-QX-3G1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-276" y="385"/>
+        </scene>
+        <!--ارسال درخواست-->
+        <scene sceneID="vgd-su-ID8">
+            <objects>
+                <viewController id="5Zm-Fj-272" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N8P-D1-v5X"/>
+                        <viewControllerLayoutGuide type="bottom" id="AmO-2m-F3m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iw2-3a-Xwp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8eP-0Z-utx">
+                                <rect key="frame" x="117" y="81" width="87" height="30"/>
+                                <state key="normal" title="ارسال درخواست">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="SendRequest:" destination="5Zm-Fj-272" eventType="touchUpInside" id="syS-LV-H3f"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SUg-eD-ejn">
+                                <rect key="frame" x="29" y="125" width="117" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="کد درگاه پرداخت" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kwi-eu-v95">
+                                <rect key="frame" x="196" y="128" width="109" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFa-qd-559">
+                                <rect key="frame" x="234" y="225" width="61" height="30"/>
+                                <state key="normal" title="ارسال تایید">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="SendVerify:" destination="5Zm-Fj-272" eventType="touchUpInside" id="eIp-eL-YbY"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xZN-C4-Uea">
+                                <rect key="frame" x="29" y="225" width="117" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="V6o-71-9n7">
+                                <rect key="frame" x="40" y="276" width="240" height="184"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">32-تراکنش انجام شده اما مبلغ مطابقت ندارد
+31-تراکنش انجام نشده است
+30-چنین تراکنشی موجود نیست
+29-آدرس کال بک خالی است
+27-آي پی شما مسدود است 
+26-درگاه غیر فعال شده است
+24-مبلغ نادرست است 
+23-مبلغ زیاد است
+22-مبلغ خیلی کم است -حداقل مبلغ ارسالی به درگاه 100 ت می باشد. 
+21-آي پی براي این درگاه نامعتبر است 
+20- ای پی آی اشتباه است
+6-خطاي اتصال به بانک 
+9-خطاي سیستمی</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ارسال درخواست" id="Olc-va-4gn"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="actionNumber" destination="SUg-eD-ejn" id="FiL-M7-bqS"/>
+                        <outlet property="verifyText" destination="xZN-C4-Uea" id="QHs-Cs-83r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d13-We-YmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="343.5" y="384.5"/>
+        </scene>
+    </scenes>
+</document>
