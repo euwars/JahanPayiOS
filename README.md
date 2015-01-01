@@ -5,8 +5,8 @@ request/verify payments from jahanpay for iOS
 
 
 *requirements
-1. jahanpay api id
-2.Xcode 5 or later
+jahanpay api id
+Xcode 5 or later
 
 set your api price and callback url in viewcontroller.m, price should be in english numbers only. callback url can be app scheme url so it will automatically back to your app.(in sample project it is IranBank://)
 other values are optional and can be empty. 
