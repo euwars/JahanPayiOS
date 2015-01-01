@@ -4,7 +4,7 @@ JahanPayiOS
 request/verify payments from jahanpay for iOS
 
 
-*requirements
+requirements:
 jahanpay api id
 Xcode 5 or later
 
